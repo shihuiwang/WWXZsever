@@ -13,7 +13,15 @@ exports.getList = (req, res) => {
 	 * limit(num)一次查询多少条
 	 */
 	roomDb.find(params).sort({ roomNumber: 1 }).skip((page-1)*size).limit(size).exec(function (err, docs) {
-		res.send(docs);
+		// 查询条数
+		roomDb.count({}, function (err, count) {
+			res.send({
+				code: 200,
+				data: docs,
+				msg: 'success',
+				total: count
+			});
+		});
 	})
 };
 

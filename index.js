@@ -46,6 +46,11 @@ app.post("/insertReceipt",function(req, res){
 	receipt.insertItem(req, res)
 });
 
+app.post("/historyReceipt/list",function(req, res){
+	console.log("请求参数：",req.body);
+	receipt.getList(req, res)
+});
+
 app.listen(port,hostName,function(){
 	console.log(`服务器运行在http://${hostName}:${port}`);
 

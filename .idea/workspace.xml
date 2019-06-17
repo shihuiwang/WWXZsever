@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7da234a3-ba4b-4354-8341-dec8c3d5d272" name="Default" comment="" />
+    <list default="true" id="7da234a3-ba4b-4354-8341-dec8c3d5d272" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/receipt.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/receipt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/receiptData.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/receiptData.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/roomData.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/roomData.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +24,17 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="217">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receipt.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/receipt.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -26,8 +42,8 @@
       <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nedb/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="100">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -38,8 +54,8 @@
       <file leaf-file-name="room.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/room.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="200">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -59,6 +75,9 @@
       <find>nedb</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/api/receipt.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.js" root0="SKIP_INSPECTION" />
@@ -69,10 +88,10 @@
         <option value="$PROJECT_DIR$/mysqlTest.js" />
         <option value="$PROJECT_DIR$/sever.js" />
         <option value="$PROJECT_DIR$/dataJson/tenantInfo.js" />
-        <option value="$PROJECT_DIR$/api/receipt.js" />
         <option value="$PROJECT_DIR$/nedb/db.js" />
         <option value="$PROJECT_DIR$/api/initDatastore.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/api/receipt.js" />
         <option value="$PROJECT_DIR$/api/room.js" />
       </list>
     </option>
@@ -100,23 +119,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="nodeSeverDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeSeverDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="WWXZsever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WWXZsever" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WWXZsever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WWXZsever" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WWXZsever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WWXZsever" type="462c0819:PsiDirectoryNode" />
+              <item name="nedb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="H:/mpp-admin-front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -159,11 +188,12 @@
       <workItem from="1556187461860" duration="2661000" />
       <workItem from="1556245627557" duration="1350000" />
       <workItem from="1557457322689" duration="1543000" />
+      <workItem from="1560739443191" duration="12412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53957000" />
+    <option name="totallyTimeSpent" value="66369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -173,12 +203,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33877996" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3391494" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -195,6 +225,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nedb/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/room.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -343,48 +397,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlTest.js" />
     <entry file="file://$PROJECT_DIR$/db/data.db" />
-    <entry file="file://$PROJECT_DIR$/db/roomData.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataJson/tenantInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/receipt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/room.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/receiptData.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="357" column="62" lean-forward="true" selection-start-line="357" selection-start-column="62" selection-end-line="357" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nedb/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,10 +418,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nedb/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/receipt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/roomData.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="358" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/receiptData.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="356" column="22" selection-start-line="356" selection-start-column="22" selection-end-line="356" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/room.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="217">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
