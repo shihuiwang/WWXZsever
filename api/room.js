@@ -14,7 +14,7 @@ exports.getList = (req, res) => {
 	 */
 	roomDb.find(params).sort({ roomNumber: 1 }).skip((page-1)*size).limit(size).exec(function (err, docs) {
 		// 查询条数
-		roomDb.count({}, function (err, count) {
+		roomDb.count(params, function (err, count) {
 			res.send({
 				code: 200,
 				data: docs,

@@ -19,14 +19,14 @@ exports.getList = (req, res) => {
 	size = size ? size : 10;
 
 	/**
-	 * 分页查询房间数据
+	 * 分页查询收据数据
 	 * sort({ id: 1 }) 以roomNumber字段为准，正序查询 -1为倒序
 	 * skip(num)从哪里开始查询
 	 * limit(num)一次查询多少条
 	 */
 	receDb.find(params).sort({ id: -1 }).skip((page-1)*size).limit(size).exec(function (err, docs) {
 		// 查询收据条数
-		receDb.count({}, function (err, count) {
+		receDb.count(params, function (err, count) {
 			res.send({
 				code: 200,
 				data: docs,
