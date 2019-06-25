@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7da234a3-ba4b-4354-8341-dec8c3d5d272" name="Default" comment="添加上传图片的接口">
+    <list default="true" id="7da234a3-ba4b-4354-8341-dec8c3d5d272" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/initDatastore.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/initDatastore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/room.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/receiptData.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/roomData.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +30,8 @@
       <file leaf-file-name="initDatastore.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/initDatastore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="40">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -44,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/api/receipt.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -65,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/api/room.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="14" column="107" lean-forward="true" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
+              <caret line="14" column="107" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -232,7 +228,7 @@
       <workItem from="1561275790015" duration="3590000" />
       <workItem from="1561306466928" duration="260000" />
       <workItem from="1561339659507" duration="574000" />
-      <workItem from="1561367411544" duration="7070000" />
+      <workItem from="1561367411544" duration="8892000" />
     </task>
     <task id="LOCAL-00001" summary="更新接口">
       <created>1560768013653</created>
@@ -248,14 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561305345651</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加删除用户、复制用户的接口">
+      <created>1561447032476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561447032476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94707000" />
+    <option name="totallyTimeSpent" value="96529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15595363" />
@@ -287,7 +290,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新接口" />
     <MESSAGE value="添加上传图片的接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加上传图片的接口" />
+    <MESSAGE value="添加删除用户、复制用户的接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加删除用户、复制用户的接口" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api/receipt.js">
@@ -598,14 +602,14 @@
     <entry file="file://$PROJECT_DIR$/api/receipt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/room.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="14" column="107" lean-forward="true" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
+          <caret line="14" column="107" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
         </state>
       </provider>
     </entry>
@@ -642,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/initDatastore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
