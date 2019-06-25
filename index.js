@@ -57,6 +57,16 @@ app.post("/updateRoomInfo",function(req, res){
 	room.updateInfo(req, res)
 });
 
+app.post("/insertRoom",function(req, res){
+	console.log("请求参数：",req.body);
+	room.insertItem(req, res)
+});
+
+app.post("/removeItem",function(req, res){
+	console.log("请求参数：",req.body);
+	room.removeItem(req, res)
+});
+
 app.post("/insertReceipt",function(req, res){
 	console.log("请求参数：",req.body);
 	receipt.insertItem(req, res)
@@ -71,6 +81,7 @@ app.post("/historyReceipt/list",function(req, res){
 app.post('/upload',upload.single('file'),(req,res)=>{
 	console.log("body参数：", req.body);
 	console.log("文件参数：", req.file);
+	// 将文件路径定位到soucers下
 	req.file.reallyPath = req.file.path.replace(staticDirectory, '')
 	req.file.reallyPath = req.file.reallyPath.replace(/\\/g, '/')
 	res.send(req.file);

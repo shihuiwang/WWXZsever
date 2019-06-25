@@ -57,3 +57,27 @@ exports.updateInfo = (req, res) => {
 		}
 	});
 };
+
+// 插入一个房间数据
+exports.insertItem = (req, res) => {
+	roomDb.insert(req.body, function (err, newDoc) {
+		if(!err) {
+			res.send({code: 200, msg: '插入房间数据成功', data: newDoc});
+		}
+		else {
+			res.send({code: -1, msg: '插入过程中发生未知错误', err});
+		}
+	});
+};
+
+// 删除一个房间数据
+exports.removeItem = (req, res) => {
+	roomDb.remove(req.body, (err, numRemoved) => {
+		if(!err) {
+			res.send({code: 200, msg: '删除房间数据成功', data: numRemoved});
+		}
+		else {
+			res.send({code: -1, msg: '删除过程中发生未知错误', err});
+		}
+	});
+};

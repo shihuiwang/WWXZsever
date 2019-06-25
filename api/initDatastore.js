@@ -5,6 +5,7 @@ exports.initDatastore = (req, res) => {
 	// 初始化房间数据32条
 	Object.keys(dataJson.tenantInfo).map(item => {
 		dataJson.tenantInfo[item].id = dataJson.tenantInfo[item].roomNumber;
+		dataJson.tenantInfo[item].status = dataJson.tenantInfo[item].status === 0 ? 0 : 1;
 		roomDb.insert(dataJson.tenantInfo[item], (err, ret) => {
 			//console.log(err, ret)
 		});
