@@ -18,6 +18,9 @@ exports.getList = (req, res) => {
 	page = page ? page : 1;
 	size = size ? size : 10;
 
+	// 正则匹配id，实现模糊查询
+	if(params.id) params = Object.assign(params, {id: new RegExp(`${params.id}`)})
+
 	/**
 	 * 分页查询收据数据
 	 * sort({ id: 1 }) 以roomNumber字段为准，正序查询 -1为倒序
