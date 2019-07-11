@@ -44,10 +44,10 @@ app.all('*', function(req, res, next) {
 });
 
 // 初始化数据库
-app.get("/datastore/init",function(req, res){
+/*app.get("/datastore/init",function(req, res){
 	console.log("请求url：", req.path, "请求参数：", req.query);
 	initDatastore(req, res)
-});
+});*/
 
 app.get("/getRoomById",function(req, res){
 	console.log("请求参数：",req.query);
