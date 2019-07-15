@@ -51,7 +51,7 @@ app.all('*', function(req, res, next) {
 
 app.get("/getRoomById",function(req, res){
 	console.log("请求参数：",req.query);
-	room.getInfo(req, res)
+	room.getInfo(req, res) 
 });
 
 app.post("/getRoomList",function(req, res){
