@@ -39,3 +39,15 @@ exports.getList = (req, res) => {
 		});
 	})
 };
+
+// 删除一条历史收据
+exports.removeItem = (req, res) => {
+  receDb.remove(req.body, {multi: true}, (err, numRemoved) => {
+    if(!err) {
+      res.send({code: 200, msg: '删除房间数据成功', data: numRemoved});
+    }
+    else {
+      res.send({code: -1, msg: '删除过程中发生未知错误', err});
+    }
+  });
+};

@@ -84,6 +84,11 @@ app.post("/historyReceipt/list",function(req, res){
 	receipt.getList(req, res)
 });
 
+app.post("/removeHistory",function(req, res){
+  console.log("请求参数：",req.body);
+  receipt.removeItem(req, res)
+});
+
 // 上传文件
 app.post('/upload',upload.single('file'),(req,res)=>{
 	console.log("body参数：", req.body);
