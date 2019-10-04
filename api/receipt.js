@@ -42,12 +42,23 @@ exports.getList = (req, res) => {
 
 // 删除一条历史收据
 exports.removeItem = (req, res) => {
-  receDb.remove(req.body, {multi: true}, (err, numRemoved) => {
-    if(!err) {
-      res.send({code: 200, msg: '删除房间数据成功', data: numRemoved});
+  const {_id,...changed} = req.body;
+  if(!_id) {
+    res.send({code: -1, msg: '缺少_id字段参数'});
+    return;
+  }
+  receDb.update({_id},{$set: changed}, { multi: true }, function (err, numReplaced, affectedDocuments) {
+    let result = {};
+    if(err) {
+      result.code = -1;
+      result.msg = JSON.stringify(err);
+      res.send(result);
     }
     else {
-      res.send({code: -1, msg: '删除过程中发生未知错误', err});
+      result.code = 200;
+      result.msg = '更新数据成功';
+      result.data = affectedDocuments;
+      res.send(result);
     }
   });
 };
